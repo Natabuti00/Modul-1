@@ -1,0 +1,32 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #f0f8ff; /* AliceBlue */ 
+    display: flex; 
+    justify-content: center; 
+    padding: 20px;
+}
+
+.kartu-unsur {
+    background-color: #ffffff; /* Putih */
+    border: 1px solid #cccccc; /* Abu-abu muda */
+    border-radius: 8px; /* Sudut melengkung */
+    padding: 24px; 
+    max-width: 600px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan halus */
+}
+
+h1 {
+    color: #2c3e50; /* Biru tua */ 
+    text-align: center; 
+}
+ 
+h2 { 
+    color: #3498db; /* Biru cerah */ 
+    border-bottom: 2px solid #f0f8ff; 
+    padding-bottom: 5px; 
+} 
+ 
+p { 
+    font-size: 16px; 
+    line-height: 1.6; /* Jarak antar baris untuk keterbacaan */ 
+} 
