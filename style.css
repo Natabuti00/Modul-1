@@ -1,6 +1,6 @@
-body { 
+﻿body { 
     font-family: Arial, sans-serif; 
-    background-color: #f0f8ff; /* AliceBlue */ 
+    background-color: #64005c; /* AliceBlue */ 
     display: flex; 
     justify-content: center; 
     padding: 20px;
@@ -15,13 +15,18 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan halus */
 }
 
+.kartu-unsur h3 {
+    color: #2c3e50; /* Biru tua */
+    margin-top: 0; 
+}
+
 h1 {
     color: #2c3e50; /* Biru tua */ 
     text-align: center; 
 }
  
 h2 { 
-    color: #3498db; /* Biru cerah */ 
+    color: #a634db; /* Biru cerah */ 
     border-bottom: 2px solid #f0f8ff; 
     padding-bottom: 5px; 
 } 
@@ -30,3 +35,13 @@ p {
     font-size: 16px; 
     line-height: 1.6; /* Jarak antar baris untuk keterbacaan */ 
 } 
+
+button {
+    background-color: #a634db; /* Biru cerah */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
